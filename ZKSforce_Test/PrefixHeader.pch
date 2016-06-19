@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  ZKSforce_Test
+//
+//  Created by Yaroslav Chyzh on 5/31/16.
+//  Copyright © 2016 Yaroslav Chyzh. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Foundation/Foundation.h>
+#import <ZKSForce/zkSforce.h>
+#import "Constants.h"
+#import "ZKServerSwitchboard.h"
+#import "YCParser.h"
+#import <CoreData/CoreData.h>
+
+#endif /* PrefixHeader_pch */
